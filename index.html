@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+<title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+<main class="container">
+  <div class="leftSide">
+    <div class="userCardBg">
+      <div class="userContent">
+
+      
+      <div class="avatar">
+        <img src="images/image-jeremy.png" alt="Jeremy Robson">
+      </div>
+      <div class="userInfo">
+        <div class="userInfoTitle">
+          Report for
+        </div>
+        <div class="userName">
+          Jeremy Robson
+        </div>
+      </div>
+      </div>
+
+      <div class="timeSelect">
+        <ul>
+        <li></li>
+        <li>Daily</li>
+        <li>Weekly</li>
+        <li>Monthly</li>
+        <li></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="rightSide">
+    <div class="top">
+      <section>
+        <div class="hrsCardBG">
+          <div class="hrsCard">
+            <div class="topCard" id="leftCard">
+              <div class="hrsTitle" id="hrsTitle">
+                Work
+              </div>
+              <div class="miniSelector">
+                <img src="images/icon-ellipsis.svg" alt="">
+              </div>
+              
+            </div>
+            <div class="bottomCard">
+              <div class="hrs workHrs" id="currentWorkHrs-work">
+              </div>
+              <div class="previousPeriod">
+                <div class="previousPer">
+                  Yesterday - 
+                </div>
+                <div class="previousHrs workPrev" id="previousHrs">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>   
+        
+        
+      <section>
+        <div class="hrsCardBG play">
+          <div class="hrsCard">
+            <div class="topCard" id="leftCard">
+              <div class="hrsTitle" id="hrsTitle">
+                Play
+              </div>
+              <div class="miniSelector">
+                <img src="images/icon-ellipsis.svg"  alt="">
+              </div>
+              
+            </div>
+            <div class="bottomCard">
+              <div class="hrs workHrs" id="currentWorkHrs-work">
+              </div>
+              <div class="previousPeriod">
+                <div class="previousPer">
+                  Yesterday - 
+                </div>
+                <div class="previousHrs workPrev" id="previousHrs">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="hrsCardBG study">
+          <div class="hrsCard">
+            <div class="topCard" id="leftCard">
+              <div class="hrsTitle" id="hrsTitle">
+                Study
+              </div>
+              <div class="miniSelector">
+                <img src="images/icon-ellipsis.svg"  alt="">
+              </div>
+              
+            </div>
+            <div class="bottomCard">
+              <div class="hrs workHrs" id="currentWorkHrs-work">
+              </div>
+              <div class="previousPeriod">
+                <div class="previousPer">
+                  Yesterday - 
+                </div>
+                <div class="previousHrs workPrev" id="previousHrs">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="bottom">
+      <section>
+        <div class="hrsCardBG exercise">
+          <div class="hrsCard">
+            <div class="topCard" id="leftCard">
+              <div class="hrsTitle" id="hrsTitle">
+                Exercise
+              </div>
+              <div class="miniSelector">
+                <img src="images/icon-ellipsis.svg"  alt="">
+              </div>
+              
+            </div>
+            <div class="bottomCard">
+              <div class="hrs workHrs" id="currentWorkHrs-work">
+              </div>
+              <div class="previousPeriod">
+                <div class="previousPer">
+                  Yesterday - 
+                </div>
+                <div class="previousHrs workPrev" id="previousHrs">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="hrsCardBG social">
+          <div class="hrsCard">
+            <div class="topCard" id="leftCard">
+              <div class="hrsTitle" id="hrsTitle">
+                Social
+              </div>
+              <div class="miniSelector">
+                <img src="images/icon-ellipsis.svg"  alt="">
+              </div>
+              
+            </div>
+            <div class="bottomCard">
+              <div class="hrs workHrs" id="currentWorkHrs-work">
+              </div>
+              <div class="previousPeriod">
+                <div class="previousPer">
+                  Yesterday - 
+                </div>
+                <div class="previousHrs workPrev" id="previousHrs">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="hrsCardBG self-care">
+          <div class="hrsCard">
+            <div class="topCard" id="leftCard">
+              <div class="hrsTitle" id="hrsTitle">
+                Self Care
+              </div>
+              <div class="miniSelector">
+                <img src="images/icon-ellipsis.svg"  alt="">
+              </div>
+              
+            </div>
+            <div class="bottomCard">
+              <div class="hrs workHrs" id="currentWorkHrs-work">
+              </div>
+              <div class="previousPeriod">
+                <div class="previousPer">
+                  Yesterday - 
+                </div>
+                <div class="previousHrs workPrev" id="previousHrs">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>  
+</main>
+  
+<script type="text/javascript" src="app.js"></script>
+ 
+</body>
+</html>
